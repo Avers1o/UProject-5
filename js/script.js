@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    /*Чтобы отследить отправку нашей формы существует обработчик событий submit.*/
+    /*Чтобы отследить отправку нашей формы существует событие submit.*/
 
     addForm.addEventListener('submit', (event) => {
         event.preventDefault();
